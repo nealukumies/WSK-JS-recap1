@@ -1,0 +1,17 @@
+table {
+  text-align: center;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+table td {
+  border: 2px solid black;
+}
+
+table tr:nth-child(even) {
+  background-color: #6dabd5;
+}
+
+table tr:nth-child(odd) {
+  background-color: #66d8bf;
+}
