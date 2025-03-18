@@ -1,10 +1,3 @@
-/* Scores between 0 and 39 receive a grade of 0.
-Scores between 40 and 51 receive a grade of 1.
-Scores between 52 and 63 receive a grade of 2.
-Scores between 64 and 75 receive a grade of 3.
-Scores between 76 and 87 receive a grade of 4.
-Scores between 88 and 100 receive a grade of 5. */
-
 const score = prompt("Enter your score:");
 let grade;
 const p = document.createElement("p");
