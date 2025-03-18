@@ -11,11 +11,11 @@ if (!isNaN(a || b || c)){
   document.body.appendChild(p2);
   let triangle;
   if (a == b && b == c){
-    triangle = "equilateral"
+    triangle = "equilateral";
   } else if (a != b && b != c){
-    triangle = "scalene"
+    triangle = "scalene";
   } else {
-    triangle = "isosceles"
+    triangle = "isosceles";
   }
   p2.innerHTML = "Triangle is " + triangle;
 
